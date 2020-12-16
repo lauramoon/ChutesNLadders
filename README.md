@@ -9,18 +9,20 @@ Figures 1 and 3 show histograms of two different simulations of 20,000 games. Th
 ![Figure 1](/Figure_1.png)
 ![Figure 3](/Figure_3.png)
 
-Figure 2 examines the statistics of simulation sets more closely. The mean, median, mode, and stadard deviation for number of turns for 5000 simulations was recorded and repeated 100 times. The box plots of Figure 2 show how these statistics differ accross the 100 sets of simulations. It is worth noting that the mean, median, and mode do not overlap at all, as the long tail of long games skews the results. The long games pull the mean up to around 39, while the median number of turns is around 32-33. But the most common number of turns is lower, varying from 15 to 28 across the different simulation sets.
+Figure 2 examines the statistics of simulation sets more closely. The mean, median, mode, and standard deviation for the number of turns from 5000 simulations was recorded and repeated 200 times. The box plots of Figure 2 show how these statistics differ across the 200 sets of simulations. 
+
+Note that the mean, median, and mode do not overlap at all, as the long tail of long games skews the results. The long games pull the mean up to around 39, while the median number of turns is around 32-33. But the most common number of turns is lower, varying from 17 to 30 across the different simulation sets.
 
 ![Figure_2](/Figure_2.png)
 
 Future work includes modeling this distribution as a Poisson distribution, possibly with modifications due to the fact that the minimum number of turns is 7, not 0.
 
 ## The Longest Chute
-The dreaded space 87 sends the poor player the whole way back to square 24. It seems that the more times one lands on this chute, the longer it takes to complete the game. Figure 4 shows that this intuition is correct. In 100,000 simulations, the longest chute was traversed as many as 11 times, and these games could last hundreds of turns.
+The dreaded space 87 sends the poor player the whole way back to square 24. It seems that the more times one lands on this chute, the longer it takes to complete the game. Figure 4 shows that this intuition is correct. In this sample of 500,000 simulations, the longest chute was traversed as many as 11 times, and these games could last hundreds of turns.
 
 ![Figure 4](/Figure_4.png)
 
-Games with many trips down the long chute are rare, however. Figure 5 shows that 0 is by far the most common number of times to land on square 87, while 9, 10, and 11 only occurred a few times in the 100,000 simulations.
+Games with many trips down the long chute are rare, however. Figure 5 shows that 0 is by far the most common number of times to land on square 87, while 9, 10, and 11 occurred less than 100 times each in the 500,000 simulations.
 
 ![Figure 5](/Figure_5.png)
 
